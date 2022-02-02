@@ -1,0 +1,5 @@
+'store_digits-correct', (0, 70)
+'VendingMachine-correct', (512, 70)
+'path_yielder-correct', (1024, 70)
+'preorder-correct', (1536, 70)
+'survey-correct', (2048, 70)
