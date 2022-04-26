@@ -74,3 +74,10 @@ def is_prime_sqrt(n):
     """
     # sqrt(k) will give the square root of k as a floating point (decimal)
     "*** YOUR CODE HERE ***"
+    if n <= 1:
+        return False
+    for i in range(2, sqrt((n)) + 1):
+        if n % i == 0:
+            return False
+    return True
+    
